@@ -79,8 +79,8 @@ TODO Note: Explain at least 3 alerts. Add more if time allows.
 - ![Nmap_Sweep](https://user-images.githubusercontent.com/79546857/129990470-4f30b006-3ff5-4561-8b7e-1800fe0a74aa.JPG)
 
 #### This scan identifies the services below as potential points of entry:
-- Target 1
--- List ofExposed Services
+**Target 1**
+- List ofExposed Services
 TODO: Fill out the list below. Include severity, and CVE numbers, if possible.
 
 The following vulnerabilities were identified on each target:
