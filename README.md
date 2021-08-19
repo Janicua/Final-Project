@@ -75,6 +75,7 @@ TODO Note: Explain at least 3 alerts. Add more if time allows.
 - Exploitation
 - Exposed Services
 
+### Target 1
 #### Nmap scan results for each machine reveal the below services and OS details:
 - $ nmap -sP 192.168.1.1-255
 - ![Nmap_Sweep](https://user-images.githubusercontent.com/79546857/129990470-4f30b006-3ff5-4561-8b7e-1800fe0a74aa.JPG)
@@ -86,9 +87,8 @@ TODO Note: Explain at least 3 alerts. Add more if time allows.
 
 #### The following vulnerabilities were identified on each target:
 
-Target 1
-List of Critical
-Vulnerabilities
+
+List of Critical Vulnerabilities
 TODO: Include vulnerability scan results to prove the identified vulnerabilities.
 
 Exploitation
