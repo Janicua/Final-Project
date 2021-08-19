@@ -7,8 +7,6 @@
 - Description of Targets
 - Monitoring the Targets
 - Patterns of Traffic & Behavior
-- Suggestions for Going Further
-- Network Topology
 
 ### The following machines were identified on the network:
 
@@ -67,3 +65,46 @@ Implemented as follows:
 - Vulnerability Mitigated: TODO
 - Reliability: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
 TODO Note: Explain at least 3 alerts. Add more if time allows.
+
+## Red Team: Summary of Operations
+
+### Table of Contents
+- Exposed Services
+- Critical Vulnerabilities
+- Exploitation
+- Exposed Services
+
+Nmap scan results for each machine reveal the below services and OS details:
+
+$ nmap ... # TODO: Add command to Scan Target 1
+  # TODO: Insert scan output
+
+This scan identifies the services below as potential points of entry:
+
+Target 1
+List of
+Exposed Services
+TODO: Fill out the list below. Include severity, and CVE numbers, if possible.
+
+The following vulnerabilities were identified on each target:
+
+Target 1
+List of
+Critical
+Vulnerabilities
+TODO: Include vulnerability scan results to prove the identified vulnerabilities.
+
+Exploitation
+TODO: Fill out the details below. Include screenshots where possible.
+
+The Red Team was able to penetrate Target 1 and retrieve the following confidential data:
+
+Target 1
+flag1.txt: flag1{b9bbcb33e11b80be759c4e844862482d}
+Exploit used
+TODO: Include the command run
+flag2.txt: flag1{b9bbcb33e11b80be759c4e844862482d
+Exploit Used
+TODO: Identify the exploit used
+TODO: Include the command run
+
