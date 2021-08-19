@@ -48,7 +48,7 @@ Implemented as follows:
 - Metric: TODO
 - Threshold: TODO
 - Vulnerability Mitigated: TODO
-- Reliability: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+- Reliability:Medium reliability - Could be an error not caused by an intruder.  
 
 ### HTTP Request Size Monitor
 Implemented as follows:
@@ -56,7 +56,7 @@ Implemented as follows:
 - Metric: TODO
 - Threshold: TODO
 - Vulnerability Mitigated: TODO
-- Reliability: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
+- Reliability: High reliability 
 
 ### CPU Usage Monitor
 Implemented as follows:
