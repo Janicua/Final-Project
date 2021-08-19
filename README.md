@@ -88,20 +88,19 @@ TODO Note: Explain at least 3 alerts. Add more if time allows.
 #### The following vulnerabilities were identified on each target:
 
 
-List of Critical Vulnerabilities
-TODO: Include vulnerability scan results to prove the identified vulnerabilities.
+#### List of Critical Vulnerabilities
+- ![WPScan1](https://user-images.githubusercontent.com/79546857/129991959-81851384-99f4-41eb-bbd9-4e1c0945c287.JPG)
+- ![WPscan2](https://user-images.githubusercontent.com/79546857/129991980-523aac90-5f04-40de-9df7-bd7880ee9301.JPG)
 
-Exploitation
-TODO: Fill out the details below. Include screenshots where possible.
+#### Exploitation
+- ![SSH@mike](https://user-images.githubusercontent.com/79546857/129992040-312767fb-d0b7-496f-a43a-41884f61cfd1.JPG)
+- SSH access was granted due to weak password security. 
 
-The Red Team was able to penetrate Target 1 and retrieve the following confidential data:
+#### The Red Team was able to penetrate Target 1 and retrieve the following confidential data:
 
-Target 1
-flag1.txt: flag1{b9bbcb33e11b80be759c4e844862482d}
-Exploit used
+- flag1.txt: flag1{b9bbcb33e11b80be759c4e844862482d}
+- ![Flag1](https://user-images.githubusercontent.com/79546857/129992218-82f6f52f-239c-46d0-8db6-37b0a57efdf7.JPG)
 TODO: Include the command run
-flag2.txt: flag1{b9bbcb33e11b80be759c4e844862482d
-Exploit Used
-TODO: Identify the exploit used
-TODO: Include the command run
+- flag2.txt: flag1{b9bbcb33e11b80be759c4e844862482d
+- ![Flag2](https://user-images.githubusercontent.com/79546857/129992231-2f215c98-1a2d-40f8-ade9-71aff735515f.JPG)
 
