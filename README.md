@@ -1,4 +1,4 @@
-# Final-Project
+# Final-Project: Red Team & Blue Team
 
 ## Blue Team: Summary of Operations
 
