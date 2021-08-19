@@ -74,10 +74,11 @@ TODO Note: Explain at least 3 alerts. Add more if time allows.
 - Exploitation
 - Exposed Services
 
-Nmap scan results for each machine reveal the below services and OS details:
+### Nmap scan results for each machine reveal the below services and OS details:
 
-$ nmap ... # TODO: Add command to Scan Target 1
-  # TODO: Insert scan output
+$ nmap -sP 192.168.1.1-255
+![Nmap_Sweep](https://user-images.githubusercontent.com/79546857/129990470-4f30b006-3ff5-4561-8b7e-1800fe0a74aa.JPG)
+
 
 This scan identifies the services below as potential points of entry:
 
