@@ -63,4 +63,4 @@ Metric: TODO
 Threshold: TODO
 Vulnerability Mitigated: TODO
 Reliability: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
-TODO Note: Explain at least 3 alerts. Add more if time allows.
+
