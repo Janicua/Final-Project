@@ -102,7 +102,7 @@ TODO Note: Explain at least 3 alerts. Add more if time allows.
 - ![Flag1](https://user-images.githubusercontent.com/79546857/129992218-82f6f52f-239c-46d0-8db6-37b0a57efdf7.JPG)
 - michael@target1:/var/www$ grep -RE flag html
 
-##### flag2.txt: flag2{fc3fd58dcdad9ab23faca6e9a36e581c
+##### flag2.txt: flag2{fc3fd58dcdad9ab23faca6e9a36e581c}
 - ![Flag2](https://user-images.githubusercontent.com/79546857/129992231-2f215c98-1a2d-40f8-ade9-71aff735515f.JPG)
 
 ##### flag3.txt: flag3{afc01ab56b50591e7dccf93122770cd2}
