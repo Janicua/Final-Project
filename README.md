@@ -9,6 +9,7 @@
 - Patterns of Traffic & Behavior
 
 ### The following machines were identified on the network:
+- ![image](https://user-images.githubusercontent.com/79546857/129990800-50515072-34be-4217-82a1-46c301f08655.png)
 
 #### Capstone
 - Operating System: Linux
@@ -77,11 +78,10 @@ TODO Note: Explain at least 3 alerts. Add more if time allows.
 #### Nmap scan results for each machine reveal the below services and OS details:
 - $ nmap -sP 192.168.1.1-255
 - ![Nmap_Sweep](https://user-images.githubusercontent.com/79546857/129990470-4f30b006-3ff5-4561-8b7e-1800fe0a74aa.JPG)
+- This scan identifies the services below as potential points of entry
 
-#### This scan identifies the services below as potential points of entry:
-**Target 1**
-- List ofExposed Services
-TODO: Fill out the list below. Include severity, and CVE numbers, if possible.
+#### List of Exposed Services:
+- 
 
 The following vulnerabilities were identified on each target:
 
