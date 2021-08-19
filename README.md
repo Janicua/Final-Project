@@ -45,27 +45,26 @@
 ### Excessive HTTP Errors 
 Implemented as follows:
 
-- Metric: TODO
-- Threshold: TODO
-- Vulnerability Mitigated: TODO
-- Reliability:Medium reliability - Could be an error not caused by an intruder.  
+- Metric: WHEN count() GROUPED OVER top 5 'http.response.status_code' IS ABOVE 400 FOR THE LAST 5 minutes
+- Threshold: 5
+- Vulnerability Mitigated: Continous monitoring 
+- Reliability: Medium reliability - Could be an error not caused by an intruder.  
 
 ### HTTP Request Size Monitor
 Implemented as follows:
 
-- Metric: TODO
-- Threshold: TODO
-- Vulnerability Mitigated: TODO
-- Reliability: High reliability 
+- Metric: WHEN sum() of http.request.bytes OVER all documents IS ABOVE 3500 FOR THE LAST 1 minute
+- Threshold: 5
+- Vulnerability Mitigated: N/A
+- Reliability: High reliability - The larger the size, the more questionabble the HTTP request. 
 
 ### CPU Usage Monitor
 Implemented as follows:
 
-- Metric: TODO
-- Threshold: TODO
-- Vulnerability Mitigated: TODO
-- Reliability: TODO: Does this alert generate lots of false positives/false negatives? Rate as low, medium, or high reliability.
-TODO Note: Explain at least 3 alerts. Add more if time allows.
+- Metric: WHEN max() OF system.process.cpu.total.pct OVER all documents IS ABOVE 0.5 FOR THE LAST 5 minutes
+- Threshold: 5
+- Vulnerability Mitigated: N/A
+- Reliability: High reliability - The harder the CPU works, the more questiobnale the acvtivity may seem. 
 
 ## Red Team: Summary of Operations
 
