@@ -81,13 +81,13 @@ TODO Note: Explain at least 3 alerts. Add more if time allows.
 - This scan identifies the services below as potential points of entry
 
 #### List of Exposed Services:
-- 
+- ![exposed_ports_services](https://user-images.githubusercontent.com/79546857/129991072-c9bf61f0-c040-4f35-b55d-fb9317a765ca.JPG)
+- Port 80 is open 
 
-The following vulnerabilities were identified on each target:
+#### The following vulnerabilities were identified on each target:
 
 Target 1
-List of
-Critical
+List of Critical
 Vulnerabilities
 TODO: Include vulnerability scan results to prove the identified vulnerabilities.
 
