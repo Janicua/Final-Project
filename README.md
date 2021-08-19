@@ -13,24 +13,24 @@
 ### The following machines were identified on the network:
 
 #### Capstone
-Operating System: Linux
-Purpose: Filebeat and Metricbeat are installed and will forward logs to the ELK machine. 
-IP Address: 192.168    
+- Operating System: Linux
+- Purpose: Filebeat and Metricbeat are installed and will forward logs to the ELK machine. 
+- IP Address: 192.168    
 
-Elk 
-Operating System: Linux
-Purpose:It holds the Kibana dashboards
-IP Address:192.168.1.100
+#### Elk 
+- Operating System: Linux
+- Purpose:It holds the Kibana dashboards
+- IP Address:192.168.1.100
 
-Kali
-Operating System: Kali Linux
-Purpose: Used in penetration testing
-IP Address: 192.168.1.90
+#### Kali
+- Operating System: Kali Linux
+- Purpose: Used in penetration testing
+- IP Address: 192.168.1.90
 
-Target 1
-Operating System: Kali Linux
-Purpose: Expose vulnerablities during penetration testing
-IP Address: 192.168.1.110
+#### Target 1
+- Operating System: Kali Linux
+- Purpose: Expose vulnerablities during penetration testing
+- IP Address: 192.168.1.110
 
 
 Description of Targets
