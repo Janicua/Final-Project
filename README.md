@@ -12,7 +12,7 @@
 
 The following machines were identified on the network:
 
-Capstone
+### Capstone
 Operating System: Linux
 Purpose: Filebeat and Metricbeat are installed and will forward logs to the ELK machine. 
 IP Address: 192.168    
